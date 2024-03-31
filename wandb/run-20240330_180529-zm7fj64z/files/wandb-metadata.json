@@ -1,0 +1,49 @@
+{
+    "os": "macOS-14.3-arm64-arm-64bit",
+    "python": "3.12.2",
+    "heartbeatAt": "2024-03-31T01:05:30.167705",
+    "startedAt": "2024-03-31T01:05:29.711659",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/Users/pranavnt/src/pranavnt/tinystories/tinystories/train.py",
+    "codePathLocal": "tinystories/train.py",
+    "codePath": "tinystories/train.py",
+    "git": {
+        "remote": null,
+        "commit": "60ad8152682b6d86cdbb5fc0de800274d77978a1"
+    },
+    "email": "pranavnt@outlook.com",
+    "root": "/Users/pranavnt/src/pranavnt/tinystories",
+    "host": "Pranavs-MacBook-Pro.local",
+    "username": "pranavnt",
+    "executable": "/Users/pranavnt/Library/Caches/pypoetry/virtualenvs/tinystories-z6ZpolgS-py3.12/bin/python",
+    "cpu_count": 16,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 4056,
+        "min": 1020,
+        "max": 4056
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 4056,
+            "min": 1020,
+            "max": 4056
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 1858.1917190551758,
+            "used": 9.437564849853516
+        }
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 128.0
+    }
+}

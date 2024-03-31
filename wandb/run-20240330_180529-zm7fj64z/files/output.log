@@ -1,0 +1,71 @@
+
+Epoch 0 Batch 0 Loss 3.75534725189209
+Epoch 0 Batch 50 Loss 2.046506643295288
+Epoch 0 Batch 100 Loss 1.5303897857666016
+Epoch 0 Batch 150 Loss 1.4679316282272339
+Epoch 0 Batch 200 Loss 1.571311116218567
+Epoch 0 Batch 250 Loss 1.4735212326049805
+Epoch 0 Batch 300 Loss 1.6093778610229492
+Epoch 0 Batch 350 Loss 1.5412954092025757
+Epoch 0 Batch 400 Loss 1.636850357055664
+Epoch 0 Batch 450 Loss 1.459907054901123
+Epoch 0 Batch 500 Loss 1.5663132667541504
+Epoch 0 Batch 550 Loss 1.4169179201126099
+Epoch 0 Batch 600 Loss 1.5955963134765625
+Epoch 0 Batch 650 Loss 1.5759499073028564
+Epoch 0 Batch 700 Loss 1.5217112302780151
+Epoch 0 Batch 750 Loss 1.6012935638427734
+Epoch 0 Batch 800 Loss 1.5116692781448364
+Epoch 0 Batch 850 Loss 1.559562087059021
+Epoch 0 Batch 900 Loss 1.8448141813278198
+Epoch 0 Batch 950 Loss 2.0350706577301025
+Epoch 0 Batch 1000 Loss 1.8673264980316162
+Epoch 0 Batch 1050 Loss 2.0250601768493652
+Epoch 0 Batch 1100 Loss 1.9723783731460571
+Epoch 0 Batch 1150 Loss 1.9819005727767944
+Epoch 0 Batch 1200 Loss 1.985720157623291
+Epoch 0 Batch 1250 Loss 1.9586786031723022
+Epoch 0 Batch 1300 Loss 1.9251749515533447
+Epoch 0 Batch 1350 Loss 2.028289318084717
+Epoch 0 Batch 1400 Loss 1.9553691148757935
+Epoch 0 Batch 1450 Loss 1.85874342918396
+Epoch 0 Batch 1500 Loss 1.9825491905212402
+Epoch 0 Batch 1550 Loss 2.036797285079956
+Epoch 0 Batch 1600 Loss 1.909351110458374
+Epoch 0 Batch 1650 Loss 1.879592776298523
+Epoch 0 Batch 1700 Loss 1.8555829524993896
+Epoch 0 Batch 1750 Loss 1.9457989931106567
+Epoch 0 Batch 1800 Loss 2.0369205474853516
+Epoch 0 Batch 1850 Loss 1.8819142580032349
+Epoch 0 Batch 1900 Loss 2.0197510719299316
+Epoch 0 Batch 1950 Loss 1.8119584321975708
+Epoch 0 Batch 2000 Loss 1.9159936904907227
+Epoch 0 Batch 2050 Loss 1.8675777912139893
+Epoch 0 Batch 2100 Loss 1.9340744018554688
+Epoch 0 Batch 2150 Loss 1.884292721748352
+Epoch 0 Batch 2200 Loss 1.6359456777572632
+Epoch 0 Batch 2250 Loss 1.8622510433197021
+Epoch 0 Batch 2300 Loss 1.9978519678115845
+Epoch 0 Batch 2350 Loss 1.86150324344635
+Epoch 0 Batch 2400 Loss 1.8827232122421265
+Epoch 0 Batch 2450 Loss 1.8333297967910767
+Epoch 0 Batch 2500 Loss 1.6625592708587646
+Epoch 0 Batch 2550 Loss 1.7519980669021606
+Epoch 0 Batch 2600 Loss 1.797327995300293
+Epoch 0 Batch 2650 Loss 1.7991719245910645
+Traceback (most recent call last):
+  File "/Users/pranavnt/src/pranavnt/tinystories/tinystories/train.py", line 53, in <module>
+    optimizer.step()
+  File "/Users/pranavnt/Library/Caches/pypoetry/virtualenvs/tinystories-z6ZpolgS-py3.12/lib/python3.12/site-packages/torch/optim/optimizer.py", line 385, in wrapper
+    out = func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pranavnt/Library/Caches/pypoetry/virtualenvs/tinystories-z6ZpolgS-py3.12/lib/python3.12/site-packages/torch/optim/optimizer.py", line 76, in _use_grad
+    ret = func(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pranavnt/Library/Caches/pypoetry/virtualenvs/tinystories-z6ZpolgS-py3.12/lib/python3.12/site-packages/torch/optim/adam.py", line 166, in step
+    adam(
+  File "/Users/pranavnt/Library/Caches/pypoetry/virtualenvs/tinystories-z6ZpolgS-py3.12/lib/python3.12/site-packages/torch/optim/adam.py", line 316, in adam
+    func(params,
+  File "/Users/pranavnt/Library/Caches/pypoetry/virtualenvs/tinystories-z6ZpolgS-py3.12/lib/python3.12/site-packages/torch/optim/adam.py", line 391, in _single_tensor_adam
+    exp_avg.lerp_(grad, 1 - beta1)
+KeyboardInterrupt

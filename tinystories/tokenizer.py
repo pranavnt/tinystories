@@ -1,14 +1,11 @@
 import sentencepiece as spm
 import os
 
-# Set the path to your training data file
-train_data_path = "phonebook.txt"
+train_data_path = "./data/TinyStories-train.txt"
 
-# Set the desired vocabulary size
-vocab_size = 1024
+vocab_size = 512
 
-# Set the output path for the tokenizer model
-model_prefix = "tokenizer"
+model_prefix = "tinystories_tokenizer"
 
 # Train the tokenizer
 spm.SentencePieceTrainer.Train(
